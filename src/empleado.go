@@ -54,7 +54,7 @@ func main() {
 	e3 := new(Employee)                 // new devuelve un apuntador
 	fmt.Printf("Empleado 3: %v\n", *e3) // con * referenciamos al valor.
 
-	// forma 4.
+	// forma 4. Crear una funcion llamada New algo y retornar un apuntador
 	e4 := NewEmployee(4, "Laura", false)
 	fmt.Printf("Empleado 4: %v\n", *e4)
 }
